@@ -3,7 +3,7 @@ import Nav from "./Nav";
 
 function Header() {
   return (
-    <header className="bg-black text-white">
+    <header className="bg-black text-white flex flex-col justify-center items-center">
       <Nav />
       <Banner />
     </header>

@@ -28,7 +28,9 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <Header />
-        <main>{children}</main>
+        <main className="flex flex-col items-center justify-center">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
