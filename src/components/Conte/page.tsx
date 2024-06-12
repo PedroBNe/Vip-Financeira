@@ -7,7 +7,7 @@ function Conte() {
       className="px-[5%] md:px-[12.5%] relative flex justify-end items-center pt-8"
       id="sobre"
     >
-      <div className="h-[430px] md:h-[670px] xl:h-[370px] flex flex-col xl:flex-row xl:justify-end items-center bg-[#FCB813] relative z-10 rounded-[24px]">
+      <div className="h-[480px] md:h-[670px] xl:h-[370px] flex flex-col xl:flex-row xl:justify-end items-center bg-[#FCB813] relative z-10 rounded-[24px]">
         <Image
           src={Tito}
           alt="Tito"

@@ -93,11 +93,25 @@ function Nav() {
                 className="flex flex-col dropDown"
               >
                 <ul className="flex flex-col gap-14 items-center h-full justify-center">
-                  <Link href="/">Início</Link>
-                  <Link href="#comofunciona">Como funciona?</Link>
-                  <Link href="#vantagens">Vantagens</Link>
-                  <Link href="#sobre">Sobre a VIP</Link>
-                  <Link href="https://consignado.vipfinanceira.com.br/#FAQ">
+                  <Link href="/" onClick={() => setOpen((ev) => !ev)}>
+                    Início
+                  </Link>
+                  <Link
+                    href="#comofunciona"
+                    onClick={() => setOpen((ev) => !ev)}
+                  >
+                    Como funciona?
+                  </Link>
+                  <Link href="#vantagens" onClick={() => setOpen((ev) => !ev)}>
+                    Vantagens
+                  </Link>
+                  <Link href="#sobre" onClick={() => setOpen((ev) => !ev)}>
+                    Sobre a VIP
+                  </Link>
+                  <Link
+                    href="https://consignado.vipfinanceira.com.br/#FAQ"
+                    onClick={() => setOpen((ev) => !ev)}
+                  >
                     FAQ
                   </Link>
                   <Link href="https://api.whatsapp.com/send?phone=554899770644&text=Oi,%20gostaria%20de%20simular%20meu%20cr%C3%A9dito%20consignado">
