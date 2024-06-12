@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Button from "../Button";
 import Row from "@/assets/Icon.png";
-import Notas from "@/assets/Notas.png";
+import Notas from "@/assets/notas.png";
 import Link from "next/link";
 
 function Simplify() {
