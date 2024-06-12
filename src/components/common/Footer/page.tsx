@@ -4,8 +4,8 @@ import Logo from "@/assets/Logo.png";
 
 function Footer() {
   return (
-    <footer className="flex flex-col gap-8 bg-black text-white px-32 py-24">
-      <div className="grid grid-cols-4">
+    <footer className="flex flex-col gap-8 bg-black text-white px-8 xl:px-32 py-24">
+      <div className="grid xl:grid-cols-4 gap-10 xl:gap-0">
         <div className="flex flex-col gap-6">
           <Image src={Logo} alt="logo" width={88} />
           <p className="text-justify">
@@ -14,44 +14,56 @@ function Footer() {
             credibilidade, segurança, qualidade e excelência.
           </p>
         </div>
-        <div className="flex justify-center">
+        <div className="flex xl:justify-center">
           <ul className="flex flex-col gap-6">
             <h3 className="font-bold">INSTITUCIONAL</h3>
             <li>
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/">Blog</Link>
+              <Link href="https://www.vipfinanceira.com.br/">Blog</Link>
             </li>
             <li>
-              <Link href="/">Dúvidas Frequentes</Link>
+              <Link href="#duvidas">Dúvidas Frequentes</Link>
             </li>
             <li>
-              <Link href="/">Acesso Colaborador</Link>
+              <Link href="https://vippromotora.stormfin.com.br/">
+                Acesso Colaborador
+              </Link>
             </li>
           </ul>
         </div>
-        <div className="flex justify-center">
+        <div className="flex xl:justify-center">
           <ul className="flex flex-col gap-6">
             <h3 className="font-bold">SOLUÇÕES</h3>
             <li>
-              <Link href="/">Crédito Consignado</Link>
+              <Link href="https://consignado.vipfinanceira.com.br/">
+                Crédito Consignado
+              </Link>
             </li>
             <li>
-              <Link href="/">Portabilidade</Link>
+              <Link href="https://consignado.vipfinanceira.com.br/">
+                Portabilidade
+              </Link>
             </li>
             <li>
-              <Link href="/">Cartão de Crédito Consig.</Link>
+              <Link href="https://consignado.vipfinanceira.com.br/">
+                Cartão de Crédito Consig.
+              </Link>
             </li>
             <li>
-              <Link href="/">Crédito Pessoal</Link>
+              <Link href="https://consignado.vipfinanceira.com.br/">
+                Crédito Pessoal
+              </Link>
             </li>
             <li>
-              <Link href="/">Seguro</Link>
+              <Link href="https://consignado.vipfinanceira.com.br/">
+                Seguro
+              </Link>
             </li>
           </ul>
         </div>
-        <div className="flex justify-center">
+        <div className="flex xl:justify-center">
           <ul className="flex flex-col gap-6">
             <h3 className="font-bold">CONTATO</h3>
             <li>
@@ -67,13 +79,19 @@ function Footer() {
         </div>
       </div>
       <div className="flex flex-col gap-6 border-solid border-t border-[#6A6A6A] pt-6">
-        <div className="flex justify-between">
+        <div className="flex flex-col md:flex-row gap-6 md:gap-0 justify-between">
           <div>
-            <p>2024 © Todos os direitos reservados. Vip Promotora de Crédito</p>
+            <p className="text-center md:text-start">
+              2024 © Todos os direitos reservados. Vip Promotora de Crédito
+            </p>
           </div>
           <div className="flex gap-8">
-            <Link href="/">Políticas de Privacidade</Link>
-            <Link href="/">Termo de uso</Link>
+            <Link href="https://www.vipfinanceira.com.br/politica">
+              Políticas de Privacidade
+            </Link>
+            <Link href="https://www.vipfinanceira.com.br/pcookie">
+              Termo de uso
+            </Link>
           </div>
         </div>
         <div>

@@ -24,7 +24,7 @@ function Button({
     <>
       <button
         className={twMerge(
-          "px-4 py-2 rounded cursor-pointer w-fit",
+          "px-4 py-2 rounded cursor-pointer w-full md:w-fit",
           "group hover:bg-primary",
           "disabled:cursor-default disabled:bg-transparent disabled:border-gray-500",
           className
@@ -32,7 +32,7 @@ function Button({
       >
         <span
           className={twMerge(
-            "text-primary flex gap-2 items-center",
+            "text-primary flex gap-2 items-center justify-center",
             "group-disabled:text-gray-500",
             textClassName
           )}

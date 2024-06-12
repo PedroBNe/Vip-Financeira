@@ -127,13 +127,38 @@ table {
 }
 
 h1 {
-  @apply font-bold text-xl lg:text-5xl;
+  @apply font-bold text-3xl lg:text-5xl;
 }
 
 h2 {
-  @apply font-semibold text-base lg:text-2xl;
+  @apply font-semibold text-2xl lg:text-2xl;
 }
 
 p {
   @apply font-normal text-xs lg:text-sm;
+}
+
+.dropDown {
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: black;
+  z-index: 29;
+}
+
+.dropDown::before {
+  content: "";
+  z-index: 29;
+  position: fixed;
+  top: -0.8rem;
+  right: 2rem;
+  width: 25px;
+  height: 25px;
+  transform: rotate(45deg);
+  background-color: black;
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
 }
