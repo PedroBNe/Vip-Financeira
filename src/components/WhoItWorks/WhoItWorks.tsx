@@ -11,7 +11,7 @@ function WhoItWorks() {
       className="flex flex-col md:flex-row justify-between w-[75%] pb-12"
       id="comofunciona"
     >
-      <div className="flex justify-center md:w-[50%] order-3 md:order-1">
+      <div className="flex justify-center md:w-[50%] order-3 md:order-1 mt-8 xl:mt-0">
         <Image src={Phone} alt="Telefone" width={400} className="max-w-[80%]" />
       </div>
       <div className="md:w-[50%] order-2">
@@ -38,10 +38,10 @@ function WhoItWorks() {
               <Image src={Simule} alt="Simule" width={54} />
             </div>
             <div className="flex flex-col gap-2">
-              <p className="font-semibold">Insira seus dados</p>
+              <p className="font-semibold">Simule o valor e parcelamento</p>
               <p className="text-[#6A6A6A]">
-                Preencha suas informações básicas e dados de pagamento para
-                iniciar o processo.
+                Escolha o valor que deseja enviar e selecione o número de
+                parcelas desejado.
               </p>
             </div>
           </li>
@@ -50,10 +50,10 @@ function WhoItWorks() {
               <Image src={Identidade} alt="Identidade" width={54} />
             </div>
             <div className="flex flex-col gap-2">
-              <p className="font-semibold">Insira seus dados</p>
+              <p className="font-semibold">Verificação de identidade</p>
               <p className="text-[#6A6A6A]">
-                Preencha suas informações básicas e dados de pagamento para
-                iniciar o processo.
+                Para garantir sua segurança, realizamos uma biometria facial
+                simples e rápida.
               </p>
             </div>
           </li>
@@ -62,10 +62,9 @@ function WhoItWorks() {
               <Image src={Envio} alt="Envio" width={54} />
             </div>
             <div className="flex flex-col gap-2">
-              <p className="font-semibold">Insira seus dados</p>
+              <p className="font-semibold">Envio do valor</p>
               <p className="text-[#6A6A6A]">
-                Preencha suas informações básicas e dados de pagamento para
-                iniciar o processo.
+                Em até 20 minutos, seu valor será enviado com sucesso!
               </p>
             </div>
           </li>
