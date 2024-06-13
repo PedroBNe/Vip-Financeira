@@ -7,10 +7,10 @@ import Link from "next/link";
 function Simplify() {
   return (
     <div
-      className="flex flex-col md:px-[10%] gap-10 md:gap-24 bg-[#F8F8F8] py-14"
+      className="flex flex-col md:px-[10%] gap-10 md:gap-24 bg-[#F8F8F8] py-14 w-full items-center"
       id="vantagens"
     >
-      <div className="flex justify-between">
+      <div className="flex justify-between max-w-[1440px]">
         <div className="w-[85%] md:w-[35%] m-auto md:m-0 flex flex-col justify-evenly gap-6 md:gap-0">
           <div>
             <h2 className="flex flex-col">
@@ -27,7 +27,10 @@ function Simplify() {
               para que você realize pagamentos com comodidade e segurança.
             </p>
           </div>
-          <Link href="https://vip.quitaboletos.com.br/app/simulacao/etapa/1">
+          <Link
+            className="hidden md:flex"
+            href="https://vip.quitaboletos.com.br/app/simulacao/etapa/1"
+          >
             <div>
               <Button
                 text="Simular agora"
@@ -51,18 +54,20 @@ function Simplify() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-4">
-        <div className="flex flex-col md:flex-row justify-between">
-          <div className="md:py-5 md:px-8 bg-white rounded-[12px] flex justify-center items-center">
-            <p className="font-bold text-sm">Descontos de pagamentos à vista</p>
+      <div className="flex flex-col gap-4 w-[85%] md:w-full max-w-[1440px]">
+        <div className="flex flex-col md:flex-row justify-between gap-4">
+          <div className="py-5 px-8 bg-white rounded-[12px] flex justify-center items-center">
+            <p className="font-bold md:text-sm">
+              Descontos de pagamentos à vista
+            </p>
           </div>
           <div className="py-5 px-8 bg-white rounded-[12px] flex justify-center items-center">
-            <p className="font-bold text-sm">
+            <p className="font-bold md:text-sm">
               Parcele valores altos em até 12 vezes! *
             </p>
           </div>
           <div className="py-5 px-8 bg-white rounded-[12px] flex justify-center items-center">
-            <p className="font-bold text-sm">
+            <p className="font-bold md:text-sm">
               Rápido, seguro e sem burocracias
             </p>
           </div>
@@ -72,6 +77,20 @@ function Simplify() {
             *Confira as taxas de juros antes de finalizar o pagamento.
           </p>
         </div>
+        <Link
+          className="flex md:hidden"
+          href="https://vip.quitaboletos.com.br/app/simulacao/etapa/1"
+        >
+          <div className="w-full">
+            <Button
+              text="Simular agora"
+              className="bg-[#FCB813] w-full"
+              textClassName="text-black font-semibold"
+              icon
+              imageIcon={Row}
+            />
+          </div>
+        </Link>
       </div>
     </div>
   );

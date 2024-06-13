@@ -34,7 +34,7 @@ export default function Question() {
         >
           <div className="flex gap-2">
             <p className="text-[#FCB813]">01.</p>
-            <p className="font-bold">
+            <p className="font-bold pr-8">
               Como funciona o PIX Parcelado da VIP FINANCEIRA?
             </p>
           </div>
@@ -48,7 +48,7 @@ export default function Question() {
             }
           />
         </div>
-        <ul>
+        <ul className="flex justify-start w-[100%]">
           {activeList != 0 && (
             <motion.div
               className="div"
@@ -56,7 +56,7 @@ export default function Question() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <li className="pl-6 pt-6">
+              <li className="pl-8 pt-6 pr-8">
                 <p className="text-[#6A6A6A]">
                   O PIX Parcelado da VIP FINANCEIRA permite que você envie PIX
                   ou pague boletos mesmo sem saldo em conta, utilizando o limite
@@ -77,7 +77,7 @@ export default function Question() {
         >
           <div className="flex gap-2">
             <p className="text-[#FCB813]">02.</p>
-            <p className="font-bold">
+            <p className="font-bold pr-8">
               Quem pode utilizar o PIX Parcelado da VIP FINANCEIRA?
             </p>
           </div>
@@ -99,7 +99,7 @@ export default function Question() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <li className="pl-6 pt-6">
+              <li className="pl-8 pt-6 pr-8">
                 <p className="text-[#6A6A6A]">
                   Qualquer brasileiro com limite disponível no cartão de crédito
                   pode utilizar o serviço.
@@ -116,7 +116,7 @@ export default function Question() {
         >
           <div className="flex gap-2">
             <p className="text-[#FCB813]">03.</p>
-            <p className="font-bold">
+            <p className="font-bold pr-8">
               Há alguma taxa extra para utilizar o PIX Parcelado da VIP
               FINANCEIRA?
             </p>
@@ -131,7 +131,7 @@ export default function Question() {
             }
           />
         </div>
-        <ul>
+        <ul className="flex justify-start w-[100%]">
           {activeList != 2 && (
             <motion.div
               className="div"
@@ -139,8 +139,8 @@ export default function Question() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <li className="pl-6 pt-6">
-                <p className="text-[#6A6A6A]">
+              <li className="pl-8 pt-6 pr-8">
+                <p className="text-[#6A6A6A">
                   As taxas podem variar dependendo do valor e da quantidade de
                   parcelas escolhidas. Consulte nossos termos e condições para
                   mais informações.
@@ -157,7 +157,7 @@ export default function Question() {
         >
           <div className="flex gap-2">
             <p className="text-[#FCB813]">04.</p>
-            <p className="font-bold">
+            <p className="font-bold pr-8">
               O que acontece caso eu atrase o pagamento de uma parcela?
             </p>
           </div>
@@ -171,7 +171,7 @@ export default function Question() {
             }
           />
         </div>
-        <ul>
+        <ul className="flex justify-start w-[100%]">
           {activeList != 3 && (
             <motion.div
               className="div"
@@ -179,7 +179,7 @@ export default function Question() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <li className="pl-6 pt-6">
+              <li className="pl-8 pt-6 pr-8">
                 <p className="text-[#6A6A6A]">
                   Cada parcela será incluída na sua próxima fatura do cartão de
                   crédito. As consequências do não pagamento da fatura podem
@@ -198,7 +198,7 @@ export default function Question() {
         >
           <div className="flex gap-2">
             <p className="text-[#FCB813]">05.</p>
-            <p className="font-bold">
+            <p className="font-bold pr-8">
               É seguro utilizar o PIX Parcelado da VIP FINANCEIRA?
             </p>
           </div>
@@ -212,7 +212,7 @@ export default function Question() {
             }
           />
         </div>
-        <ul>
+        <ul className="flex justify-start w-[100%]">
           {activeList != 4 && (
             <motion.div
               className="div"
@@ -220,7 +220,7 @@ export default function Question() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <li className="pl-6 pt-6">
+              <li className="pl-8 pt-6 pr-8">
                 <p className="text-[#6A6A6A]">
                   Sim, garantimos a segurança de todas as transações realizadas
                   por meio do nosso serviço. Além disso, realizamos uma
@@ -239,7 +239,7 @@ export default function Question() {
         >
           <div className="flex gap-2">
             <p className="text-[#FCB813]">06.</p>
-            <p className="font-bold">
+            <p className="font-bold pr-8">
               Existe algum limite de valor para utilizar o PIX Parcelado da VIP
               FINANCEIRA?
             </p>
@@ -254,7 +254,7 @@ export default function Question() {
             }
           />
         </div>
-        <ul>
+        <ul className="flex justify-start w-[100%]">
           {activeList != 5 && (
             <motion.div
               className="div"
@@ -262,7 +262,7 @@ export default function Question() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <li className="pl-6 pt-6">
+              <li className="pl-8 pt-6 pr-8">
                 <p className="text-[#6A6A6A]">
                   O limite de valor pode variar dependendo do seu cartão de
                   crédito. Para mais informações sobre limites, entre em contato
@@ -280,7 +280,7 @@ export default function Question() {
         >
           <div className="flex gap-2">
             <p className="text-[#FCB813]">07.</p>
-            <p className="font-bold">
+            <p className="font-bold pr-8">
               Como faço para entrar em contato com o suporte da VIP FINANCEIRA
               em caso de dúvidas ou problemas?
             </p>
@@ -295,7 +295,7 @@ export default function Question() {
             }
           />
         </div>
-        <ul>
+        <ul className="flex justify-start w-[100%]">
           {activeList != 6 && (
             <motion.div
               className="div"
@@ -303,7 +303,7 @@ export default function Question() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <li className="pl-6 pt-6">
+              <li className="pl-8 pt-6 pr-8">
                 <p className="text-[#6A6A6A]">
                   Você pode entrar em contato conosco através do nosso site ou
                   canais de atendimento ao consumidor, onde temos uma equipe

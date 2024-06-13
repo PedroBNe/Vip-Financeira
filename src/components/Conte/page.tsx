@@ -4,10 +4,10 @@ import Tito from "@/assets/img-tito.png";
 function Conte() {
   return (
     <div
-      className="px-[5%] md:px-[12.5%] relative flex justify-end items-center pt-8"
+      className="px-[5%] md:px-[10%] relative flex justify-center items-center pt-8 w-full"
       id="sobre"
     >
-      <div className="h-[480px] md:h-[670px] xl:h-[370px] flex flex-col xl:flex-row xl:justify-end items-center bg-[#FCB813] relative z-10 rounded-[24px]">
+      <div className="h-[480px] md:h-[670px] xl:h-[370px] flex flex-col xl:flex-row xl:justify-end items-center bg-[#FCB813] relative z-10 rounded-[24px] max-w-[1440px]">
         <Image
           src={Tito}
           alt="Tito"

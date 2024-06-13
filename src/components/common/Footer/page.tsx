@@ -4,8 +4,8 @@ import Logo from "@/assets/Logo.png";
 
 function Footer() {
   return (
-    <footer className="flex flex-col gap-8 bg-black text-white px-8 xl:px-32 py-24">
-      <div className="grid xl:grid-cols-4 gap-10 xl:gap-0">
+    <footer className="flex flex-col items-center gap-8 bg-black text-white px-8 xl:px-32 py-24">
+      <div className="grid xl:grid-cols-4 gap-10 xl:gap-0 max-w-[1440px] items-center justify-center">
         <div className="flex flex-col gap-6">
           <Image src={Logo} alt="logo" width={88} />
           <p className="text-justify">
@@ -18,10 +18,7 @@ function Footer() {
           <ul className="flex flex-col gap-6">
             <h3 className="font-bold">INSTITUCIONAL</h3>
             <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="https://www.vipfinanceira.com.br/">Blog</Link>
+              <Link href="www.vipfinanceira.com.br">Home</Link>
             </li>
             <li>
               <Link href="#duvidas">Dúvidas Frequentes</Link>
@@ -37,29 +34,20 @@ function Footer() {
           <ul className="flex flex-col gap-6">
             <h3 className="font-bold">SOLUÇÕES</h3>
             <li>
-              <Link href="https://consignado.vipfinanceira.com.br/">
+              <Link href="consignado.vipfinanceira.com.br">
                 Crédito Consignado
               </Link>
             </li>
             <li>
-              <Link href="https://consignado.vipfinanceira.com.br/">
-                Portabilidade
-              </Link>
+              <Link href="consignado.vipfinanceira.com.br">Portabilidade</Link>
             </li>
             <li>
-              <Link href="https://consignado.vipfinanceira.com.br/">
+              <Link href="consignado.vipfinanceira.com.br">
                 Cartão de Crédito Consig.
               </Link>
             </li>
             <li>
-              <Link href="https://consignado.vipfinanceira.com.br/">
-                Crédito Pessoal
-              </Link>
-            </li>
-            <li>
-              <Link href="https://consignado.vipfinanceira.com.br/">
-                Seguro
-              </Link>
+              <Link href="fgts.vipfinanceira.com.br">FGTS</Link>
             </li>
           </ul>
         </div>
@@ -78,7 +66,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div className="flex flex-col gap-6 border-solid border-t border-[#6A6A6A] pt-6">
+      <div className="flex flex-col gap-6 border-solid border-t border-[#6A6A6A] pt-6 max-w-[1440px]">
         <div className="flex flex-col md:flex-row gap-6 md:gap-0 justify-between">
           <div>
             <p className="text-center md:text-start">

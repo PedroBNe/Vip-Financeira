@@ -129,7 +129,7 @@ function Nav() {
           </div>
         </div>
       </div>
-      <nav className="justify-between items-center text-sm xl:text-base p-6 md:px-2 xl:px-6 w-[80%] md:w-[90%] xl:w-[80%] hidden md:flex">
+      <nav className="justify-between items-center text-sm xl:text-base p-6 md:px-2 xl:px-6 w-[80%] md:w-[90%] xl:w-[80%] hidden md:flex max-w-[1440px]">
         <div className="flex items-center justify-center">
           <Image src={Logo} alt="Logo" width={88} />
         </div>

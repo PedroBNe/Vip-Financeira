@@ -5,7 +5,7 @@ import Simplify from "@/components/common/Simplify/Simplify";
 
 export default function Home() {
   return (
-    <div className="py-20 flex flex-col items-center">
+    <div className="py-20 flex flex-col items-center w-full">
       <WhoItWorks />
       <Simplify />
       <Conte />

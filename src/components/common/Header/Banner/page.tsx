@@ -10,7 +10,7 @@ import pix3 from "@/assets/logo-pix-2.png";
 
 function Banner() {
   return (
-    <div className="flex flex-col relative md:flex-row justify-between items-center w-[80%]">
+    <div className="flex flex-col relative md:flex-row justify-between items-center w-[80%] max-w-[1440px]">
       <div className="flex flex-col gap-8 md:w-[40%]">
         <div>
           <h1 className="flex flex-col mt-28 md:mt-0 md:text-2xl xl:text-5xl">

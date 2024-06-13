@@ -8,7 +8,7 @@ import Envio from "@/assets/Envio.png";
 function WhoItWorks() {
   return (
     <div
-      className="flex flex-col md:flex-row justify-between w-[75%] pb-12"
+      className="flex flex-col md:flex-row justify-between w-[75%] pb-12 max-w-[1440px]"
       id="comofunciona"
     >
       <div className="flex justify-center md:w-[50%] order-3 md:order-1 mt-8 xl:mt-0">
