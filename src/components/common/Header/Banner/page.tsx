@@ -61,8 +61,8 @@ function Banner() {
       </div>
       <Button
         text="Fale conosco"
-        className="bg-black rounded-[100px] flex items-center absolute bottom-20 md:bottom-[-60px] md:right-28 w-fit border-solid border-white border-2 overflow-hidden"
-        textClassName="text-white font-semibold text-[12px]"
+        className="bg-black rounded-[100px] flex items-center fixed bottom-10 right-auto sm:right-10 w-fit border-solid border-white border-2 overflow-hidden z-50"
+        textClassName="text-white font-semibold text-base"
         eclipse
       />
     </div>
